@@ -1,0 +1,25 @@
+{
+  "name": "delaywire",
+  "version": "1.0.0",
+  "description": "Zero-dependency microservice mock server with deterministic and heavy-tail latency injection",
+  "type": "module",
+  "bin": {
+    "delaywire": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js",
+    "test": "node ./test/smoke.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "microservices",
+    "mock-server",
+    "latency-injection",
+    "chaos-engineering",
+    "fault-injection",
+    "testing"
+  ],
+  "license": "MIT"
+}
